@@ -1,0 +1,52 @@
+footer{
+    background-image: linear-gradient(to top,rgb(62, 70, 78),rgb(174,198,223));
+    border-style: none;
+    margin-top:2rem;
+     em{
+        margin-left: 0;
+        text-align: center;
+        font-family: monospace;
+        font-size: 15px;
+    }
+}
+
+
+form{
+    position: relative;
+    background-image: linear-gradient(to top,rgb(116, 129, 143),rgb(174,198,223),rgb(116, 129, 143));
+    border-style:none;
+    width: 200px;
+    height: 200Px;
+    padding: 2px;
+    text-align: center;
+}
+
+.ejeY{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-top:0;
+    padding:0;
+    text-align: center;
+}
+
+@for $i from 1 to 3 {
+    .tamañoLetra-#{$i}{font-size: 20px*$i;}
+}
+
+$colores: lightblue, cyan, darkblue;
+
+@each $color in $colores {
+    .color-#{$color}{
+        color:$color;
+    }
+}
+
+@mixin tamaño($width,$height){
+    height:$height;
+    width:$width;
+    }
+
+.tamaño{
+    @include tamaño($width:fit-content,$height:auto);
+}

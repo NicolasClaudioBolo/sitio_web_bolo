@@ -1,0 +1,58 @@
+@charset "UTF-8";
+footer {
+  background-image: linear-gradient(to top, #3e464e, #aec6df);
+  border-style: none;
+  margin-top: 2rem;
+}
+
+footer em {
+  margin-left: 0;
+  text-align: center;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+form {
+  position: relative;
+  background-image: linear-gradient(to top, #74818f, #aec6df, #74818f);
+  border-style: none;
+  width: 200px;
+  height: 200Px;
+  padding: 2px;
+  text-align: center;
+}
+
+.ejeY {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin-top: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.tamañoLetra-1 {
+  font-size: 20px;
+}
+
+.tamañoLetra-2 {
+  font-size: 40px;
+}
+
+.color-lightblue {
+  color: lightblue;
+}
+
+.color-cyan {
+  color: cyan;
+}
+
+.color-darkblue {
+  color: darkblue;
+}
+
+.tamaño {
+  height: auto;
+  width: fit-content;
+}
+/*# sourceMappingURL=estilos.css.map */
