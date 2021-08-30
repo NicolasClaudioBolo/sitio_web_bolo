@@ -26,7 +26,7 @@ form {
   display: flex;
   flex-direction: column;
   border: none;
-  margin-top: 0;
+  margin-top: 6%;
   padding: 0;
   text-align: center;
 }
@@ -54,5 +54,44 @@ form {
 .tamaño {
   height: auto;
   width: fit-content;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1.5rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-secondary {
+  color: #3e464e;
+  background-color: #aec6df;
+  border-color: #aec6df;
+  border-radius: 0;
+}
+
+.div_menu_letra {
+  font-size: 1.5rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+}
+
+.btn-check:focus + .btn-secondary, .btn-secondary:focus {
+  color: #212529;
+  background-color: #aec6df;
+  border-color: #aec6df;
+  box-shadow: #3e464e;
 }
 /*# sourceMappingURL=estilos.css.map */

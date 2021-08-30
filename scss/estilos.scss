@@ -25,7 +25,7 @@ form{
     display: flex;
     flex-direction: column;
     border: none;
-    margin-top:0;
+    margin-top:6%;
     padding:0;
     text-align: center;
 }
@@ -49,4 +49,45 @@ $colores: lightblue, cyan, darkblue;
 
 .tamaño{
     @include tamaño($width:fit-content,$height:auto);
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.5rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-secondary {
+    color: rgb(62, 70, 78);
+    background-color: rgb(174,198,223);
+    border-color: rgb(174,198,223);
+    border-radius:0;
+}
+
+.div_menu_letra{
+    font-size: 1.5rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+}
+
+.btn-check:focus+.btn-secondary, .btn-secondary:focus {
+    color: #212529;
+    background-color: rgb(174, 198, 223);
+    border-color: rgb(174, 198, 223);
+    box-shadow: rgb(62, 70, 78);
 }
