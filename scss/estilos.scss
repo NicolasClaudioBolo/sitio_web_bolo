@@ -3,9 +3,9 @@
     padding:0px;
 }
 
-html{
-    width: 100vw;
-    overflow-x: hidden;
+html {
+    width: 100vw !important;
+    overflow-x: hidden !important;
   }
 
 .colorGris{
@@ -65,11 +65,11 @@ header{
 .colorVolver{
     background-color: rgb(174, 198, 223);
     border:1px solid none;
-    position: absolute;
+    position: relative;
     left: 40vw;
     margin-top: 1%;
     padding:5px;
-    margin-bottom: 6%;
+    margin-bottom: 1%;
 }
 
 .img__agrandar{
@@ -103,8 +103,8 @@ section{
 }
 
 .banner{
-    width: 750px;
-    height: 139px;
+    width: 100vw;
+    height: auto;
     margin-left: 20%;
 }
 
@@ -131,11 +131,8 @@ article{
 }
 
 .article__legales{
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    margin: 40px;
-    padding: 40px;
+    margin: 20px;
+    padding: 20px;
 }
 
 .contenedor{
@@ -174,6 +171,7 @@ header{
     width:700px;
     height:50px;
     margin-bottom: 60px;
+    text-align: center;
 }
 
 .articulo{
@@ -299,4 +297,12 @@ $colores: lightblue, cyan, darkblue;
     background-color: rgb(174, 198, 223);
     border-color: rgb(174, 198, 223);
     box-shadow: rgb(62, 70, 78);
+}
+
+.img_fondo{
+    background-image: linear-gradient(to left, rgb(174,198,223), #fff, rgb(174,198,223))
+}
+
+.img_fondo2{
+    background-image: linear-gradient(rgb(174,198,223), #fff, rgb(174,198,223))
 }
