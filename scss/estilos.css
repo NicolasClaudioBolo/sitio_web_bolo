@@ -66,10 +66,15 @@ header {
   background-color: #aec6df;
   border: 1px solid none;
   position: relative;
-  left: 40vw;
   margin-top: 1%;
   padding: 5px;
   margin-bottom: 1%;
+}
+
+.div__Volver {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
 }
 
 .img__agrandar {
@@ -151,6 +156,10 @@ article {
   margin-left: 30vw;
 }
 
+.img__indexCentrar2 {
+  margin-left: 41vw;
+}
+
 @keyframes animacion {
   from {
     background-color: #aec6df;
@@ -212,13 +221,18 @@ header {
 footer {
   background-image: linear-gradient(to top, #3e464e, #aec6df);
   border-style: none;
-  margin-top: 2rem;
+  margin-top: 0;
 }
 
 footer em {
   margin-left: 0;
   text-align: center;
   font-family: monospace;
+  font-size: 15px;
+}
+
+footer h2 {
+  text-align: center;
   font-size: 15px;
 }
 
@@ -242,11 +256,11 @@ form {
 }
 
 .tamañoLetra-1 {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .tamañoLetra-2 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .color-lightblue {
@@ -311,5 +325,21 @@ form {
 
 .img_fondo2 {
   background-image: linear-gradient(#aec6df, #fff, #aec6df);
+}
+
+.img_icono_header {
+  width: 175px;
+  height: auto;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 /*# sourceMappingURL=estilos.css.map */

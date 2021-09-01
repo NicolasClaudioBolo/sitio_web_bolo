@@ -66,10 +66,16 @@ header{
     background-color: rgb(174, 198, 223);
     border:1px solid none;
     position: relative;
-    left: 40vw;
+    // left: 40vw;
     margin-top: 1%;
     padding:5px;
     margin-bottom: 1%;
+}
+
+.div__Volver{
+    display: flex;
+    justify-content: center;
+    height:50vh;
 }
 
 .img__agrandar{
@@ -150,6 +156,10 @@ article{
     margin-left: 30vw;
 }
 
+.img__indexCentrar2{
+    margin-left: 41vw;
+}
+
 @keyframes animacion{
     from {background-color: rgb(174, 198, 223);}
     to {background-color: rgb(199, 199, 199);}
@@ -208,11 +218,15 @@ header{
 footer{
     background-image: linear-gradient(to top,rgb(62, 70, 78),rgb(174,198,223));
     border-style: none;
-    margin-top:2rem;
+    margin-top:0;
      em{
         margin-left: 0;
         text-align: center;
         font-family: monospace;
+        font-size: 15px;
+    }
+    h2{
+        text-align: center;
         font-size: 15px;
     }
 }
@@ -238,7 +252,7 @@ form{
 }
 
 @for $i from 1 to 3 {
-    .tamañoLetra-#{$i}{font-size: 20px*$i;}
+    .tamañoLetra-#{$i}{font-size: 25px*$i;}
 }
 
 $colores: lightblue, cyan, darkblue;
@@ -305,4 +319,21 @@ $colores: lightblue, cyan, darkblue;
 
 .img_fondo2{
     background-image: linear-gradient(rgb(174,198,223), #fff, rgb(174,198,223))
+}
+
+.img_icono_header{
+    width:175px;
+    height: auto;
+    // position:relative;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
