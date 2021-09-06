@@ -236,16 +236,6 @@ footer h2 {
   font-size: 15px;
 }
 
-form {
-  position: relative;
-  background-image: linear-gradient(to top, #74818f, #aec6df, #74818f);
-  border-style: none;
-  width: 200px;
-  height: 200Px;
-  padding: 2px;
-  text-align: center;
-}
-
 .ejeY {
   display: flex;
   flex-direction: column;
@@ -341,5 +331,9 @@ form {
   padding-bottom: .5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.body__padding0 {
+  padding: 0;
 }
 /*# sourceMappingURL=estilos.css.map */

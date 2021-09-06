@@ -232,15 +232,15 @@ footer{
 }
 
 
-form{
-    position: relative;
-    background-image: linear-gradient(to top,rgb(116, 129, 143),rgb(174,198,223),rgb(116, 129, 143));
-    border-style:none;
-    width: 200px;
-    height: 200Px;
-    padding: 2px;
-    text-align: center;
-}
+// form{
+//     position: relative;
+//     background-image: linear-gradient(to top,rgb(116, 129, 143),rgb(174,198,223),rgb(116, 129, 143));
+//     border-style:none;
+//     width: 200px;
+//     height: 200Px;
+//     padding: 2px;
+//     text-align: center;
+// }
 
 .ejeY{
     display: flex;
@@ -336,4 +336,8 @@ $colores: lightblue, cyan, darkblue;
     padding-bottom: .5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+.body__padding0{
+    padding: 0;
 }
