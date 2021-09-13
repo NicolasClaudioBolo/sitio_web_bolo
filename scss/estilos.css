@@ -40,7 +40,6 @@ h3 {
 
 .colorTitulo {
   color: #181847;
-  margin-bottom: 35px;
   padding: 0;
   border: none;
 }
@@ -146,6 +145,7 @@ article {
   max-width: 100%;
   margin: 0 auto;
   overflow: scroll;
+  overflow-x: hidden;
 }
 
 .img__centrar {
@@ -319,6 +319,11 @@ footer h2 {
 
 .img_icono_header {
   width: 175px;
+  height: auto;
+}
+
+.img_icono_volver {
+  width: 48px;
   height: auto;
 }
 

@@ -40,7 +40,7 @@ h3{
 
 .colorTitulo{
     color: rgb(24, 24, 71);
-    margin-bottom:35px;
+    // margin-bottom:35px;
     padding:0;
     border: none;
 }
@@ -146,6 +146,7 @@ article{
     max-width: 100%;
     margin:0 auto;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 .img__centrar{
@@ -231,17 +232,6 @@ footer{
     }
 }
 
-
-// form{
-//     position: relative;
-//     background-image: linear-gradient(to top,rgb(116, 129, 143),rgb(174,198,223),rgb(116, 129, 143));
-//     border-style:none;
-//     width: 200px;
-//     height: 200Px;
-//     padding: 2px;
-//     text-align: center;
-// }
-
 .ejeY{
     display: flex;
     flex-direction: column;
@@ -325,6 +315,11 @@ $colores: lightblue, cyan, darkblue;
     width:175px;
     height: auto;
     // position:relative;
+}
+
+.img_icono_volver{
+    width:48px;
+    height:auto;
 }
 
 .navbar {
