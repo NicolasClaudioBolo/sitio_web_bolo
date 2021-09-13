@@ -333,6 +333,10 @@ $colores: lightblue, cyan, darkblue;
     padding-right: 1rem;
 }
 
+.card-body{
+    background-image: linear-gradient(#fff, rgb(174,198,223), #fff);
+}
+
 .body__padding0{
     padding: 0;
 }

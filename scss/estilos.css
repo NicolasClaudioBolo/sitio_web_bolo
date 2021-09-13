@@ -338,6 +338,10 @@ footer h2 {
   padding-right: 1rem;
 }
 
+.card-body {
+  background-image: linear-gradient(#fff, #aec6df, #fff);
+}
+
 .body__padding0 {
   padding: 0;
 }
