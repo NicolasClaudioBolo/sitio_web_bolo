@@ -65,6 +65,9 @@ h3{
     animation-iteration-count: infinite;
     animation-direction: alternate;
     position: relative;
+    padding-bottom: 5px;
+    z-index: 1;
+    margin-top: 0;
 }
 
 a{
@@ -80,9 +83,6 @@ html{
     height:100vh;
 }
 
-header{
-    background-color: rgb(174, 198, 223);
-}
 
 .colorVolver{
     background-color: rgb(174, 198, 223);
@@ -196,7 +196,8 @@ header{
     animation-iteration-count: infinite;
     animation-direction: alternate;
     position: relative;
-    height: 300px;
+    height: 310px;
+    z-index: 2;
 }
 
 .contactanos{
@@ -355,6 +356,15 @@ $colores: lightblue, cyan, darkblue;
 
 .card-body{
     background-image: linear-gradient(#fff, rgb(174,198,223), #fff);
+}
+
+.carroussel{
+    position: relative;
+    z-index: 1;
+}
+
+.z-index3{
+    z-index: 3;
 }
 
 .body__padding0{

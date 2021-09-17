@@ -68,6 +68,9 @@ h3 {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   position: relative;
+  padding-bottom: 5px;
+  z-index: 1;
+  margin-top: 0;
 }
 
 a {
@@ -81,10 +84,6 @@ html {
   background-size: auto;
   width: 100vw;
   height: 100vh;
-}
-
-header {
-  background-color: #aec6df;
 }
 
 .colorVolver {
@@ -203,7 +202,8 @@ header {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   position: relative;
-  height: 300px;
+  height: 310px;
+  z-index: 2;
 }
 
 .contactanos {
@@ -364,6 +364,15 @@ footer h2 {
 
 .card-body {
   background-image: linear-gradient(#fff, #aec6df, #fff);
+}
+
+.carroussel {
+  position: relative;
+  z-index: 1;
+}
+
+.z-index3 {
+  z-index: 3;
 }
 
 .body__padding0 {
