@@ -14,14 +14,20 @@
     <link rel="stylesheet" href="../scss/estilos.css">
 </head>
 <body class="contenedor container-fluid img_fondo body__padding0">
+
+  <!-- Aquí comienza el header que contiene el encabezado, los links en un menú hamburguesa y el título de la página en cuestión. -->
+
   <header class="col-md-12 col-sm-12 col-12">
-    <a href="./Legales.html">
+    <a href="../index.html">
         <img src="../Img/Icono.png" alt="Icono" class="img_icono_header rounded mx-auto d-block img-fluid">
     </a>
     <h1>
         <strong class="colorTitulo header__titulo mx-sm-auto mx-auto my-md-0" style="height: fit-content;">Arq. María Gabriela David</strong>
     </h1>
     <h3 class="colorGris header__subtitulo mx-sm-auto mx-auto">Especialista en restauración</h3>
+
+    <!-- Este es el menú hamburguesa de Bootstrap -->
+
     <nav class="navbar navbar-expand-lg navbar-light tamañoLetra-1">
       <div class="container-fluid mx-auto d-block">
         <a class="nav-item" href="#"></a>
@@ -42,9 +48,6 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./Biografía.html">Biografía</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./Contáctanos.html">Contacto</a>
-            </li>
           </ul>
         </div>
       </div>
@@ -53,20 +56,19 @@
       Contacto
     </h1>
   </header>
+
+    <!-- Breve petición de datos por parte del host, seguido de un formulario de contacto. -->
+
     <div class="row gx-0">
         <div class="contactanos col-md-8 col-sm-6 col-4 mx-auto pb-5 pt-0 mt-5">
             Déjanos tus datos, y nos contactaremos contigo a la brevedad.
         </div>
     </div>
-    <!-- <form action="php" class="mx-auto mx-sm-auto d-block mt-5">
-        <label for="Nombre">Nombre</label>
-        <input type="text" name="Nombre" id="Nombre" required>
-        <label for="Apellido">Apellido</label>
-        <input type="text" name="Apellido" id="Apellido" required>
-        <label for="casilla">Email</label>
-        <input type="email" id="casilla" name="casilla" required>
-        <input type="submit">
-    </form> -->
+
+    <!-- Formulario de contacto de Bootstrap, estilizado con SCSS. -->
+
+    <!-- El formulario es a modo de ejercicio. No funciona aún. -->
+
     <form class="col g-3 needs-validation mx-auto" novalidate>
         <div class="col-md-4 mx-auto d-block">
           <label for="validationCustom01" class="form-label">Nombre</label>
@@ -91,6 +93,9 @@
         </div>
         <input class="col-ld-2 col-md-2 col-sm-2 col-2 mx-auto d-block my-5 img_fondo" type="submit" style="border:0">
     </form>
+
+    <!-- Footer con íconos de contacto y un link en el ícono igual al logo del header con ruta hacia index.html -->
+
     <div>
         <footer class="div__Volver">
             <nav class="navbar navbar-light">

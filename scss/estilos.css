@@ -19,6 +19,16 @@ html {
   color: black;
 }
 
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
 header h1 {
   text-align: center;
   font-size: 30px;
@@ -38,10 +48,26 @@ h3 {
   letter-spacing: 4px;
 }
 
+@keyframes animacion {
+  from {
+    background-color: #aec6df;
+  }
+  to {
+    background-color: #c7c7c7;
+  }
+}
+
 .colorTitulo {
   color: #181847;
   padding: 0;
   border: none;
+  background-color: #aec6df;
+  animation-duration: 3s;
+  animation-name: animacion;
+  transition: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: relative;
 }
 
 a {
@@ -177,6 +203,7 @@ header {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   position: relative;
+  height: 300px;
 }
 
 .contactanos {
@@ -318,7 +345,7 @@ footer h2 {
 }
 
 .img_icono_header {
-  width: 175px;
+  width: 125px;
   height: auto;
 }
 
@@ -332,10 +359,7 @@ footer h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0;
 }
 
 .card-body {

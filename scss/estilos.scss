@@ -18,6 +18,16 @@ html {
     color: black;
 }
 
+h1{
+    margin:0;
+    padding:0;
+}
+
+h3{
+    margin:0;
+    padding:0;
+}
+
 
 header h1{
     text-align:center;
@@ -38,11 +48,23 @@ h3{
     letter-spacing: 4px;
 }
 
+@keyframes animacion{
+    from {background-color: rgb(174, 198, 223);}
+    to {background-color: rgb(199, 199, 199);}
+}
+
 .colorTitulo{
     color: rgb(24, 24, 71);
     // margin-bottom:35px;
     padding:0;
     border: none;
+    background-color: rgb(174, 198, 223);
+    animation-duration: 3s;
+    animation-name: animacion;
+    transition: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
 }
 
 a{
@@ -174,6 +196,7 @@ header{
     animation-iteration-count: infinite;
     animation-direction: alternate;
     position: relative;
+    height: 300px;
 }
 
 .contactanos{
@@ -312,7 +335,7 @@ $colores: lightblue, cyan, darkblue;
 }
 
 .img_icono_header{
-    width:175px;
+    width:125px;
     height: auto;
     // position:relative;
 }
@@ -327,10 +350,7 @@ $colores: lightblue, cyan, darkblue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0;
 }
 
 .card-body{

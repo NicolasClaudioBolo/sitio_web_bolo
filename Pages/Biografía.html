@@ -14,14 +14,20 @@
     <link rel="stylesheet" href="../scss/estilos.css">
 </head>
 <body class="contenedor body__padding0 img_fondo">
+
+  <!-- Aquí comienza el header que contiene el encabezado, los links en un menú hamburguesa y el título de la página en cuestión. -->
+
   <header class="col-md-12 col-sm-12 col-12">
-    <a href="./Biografía.html">
+    <a href="../index.html">
         <img src="../Img/Icono.png" alt="Icono" class="img_icono_header rounded mx-auto d-block img-fluid">
     </a>
     <h1>
         <strong class="colorTitulo header__titulo mx-sm-auto mx-auto my-md-0" style="height: fit-content;">Arq. María Gabriela David</strong>
     </h1>
     <h3 class="colorGris header__subtitulo mx-sm-auto mx-auto">Especialista en restauración</h3>
+
+    <!-- Este es el menú hamburguesa de Bootstrap -->
+
     <nav class="navbar navbar-expand-lg navbar-light tamañoLetra-1">
       <div class="container-fluid mx-auto d-block">
         <a class="nav-item" href="#"></a>
@@ -40,9 +46,6 @@
               <a class="nav-link active" aria-current="page" href="./Proyectos.html">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./Biografía.html">Biografía</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./Contáctanos.html">Contacto</a>
             </li>
           </ul>
@@ -53,10 +56,12 @@
       Biografía
     </h1>
   </header>
-    <!-- <img src="../Img/FotoBio.png" alt="Foto de Gabriela David"> -->
+    
+  <!-- Aquí comienza la sección de la biografía de María Gabriela David -->
+
     <section>
             <p>
-                <h2 class="colorGris centrarTexto bio mt-5"><span id="boldNegra">María Gabriela David </span> realizó sus estudios en la <span id="boldNegra">Universidad de Buenos Aires</span> desde el año 2013 hasta 2020, habiendo completado la carrera de arquitectura en tiempo y forma, y un posgrado en restauración y conservación del patrimonio. 
+                <h2 class="colorGris bio centrarTexto articulo col-md-8 col-sm-10 col-12 mx-md-auto mx-sm-auto mx-auto my-5"><span id="boldNegra">María Gabriela David </span> realizó sus estudios en la <span id="boldNegra">Universidad de Buenos Aires</span> desde el año 2013 hasta 2020, habiendo completado la carrera de arquitectura en tiempo y forma, y un posgrado en restauración y conservación del patrimonio. 
                 <section>
                     <img src="../Img/FotoBio2.jpeg" alt="Notre Dame" class="img__agrandar img-fluid ml-sm-0 mx-auto d-block w-50 h-50 my-5">
                 </section>  
@@ -71,6 +76,9 @@
                 </section>
             </p>
     </section>
+
+    <!-- Footer con íconos de contacto y un link en el ícono igual al logo del header con ruta hacia index.html -->
+
     <div>
         <footer class="div__Volver">
             <nav class="navbar navbar-light">
